@@ -1,0 +1,6 @@
+function_name        = "helloWorldLambda"
+lambda_source_path   = "./lambdaCode/lambda.zip"
+handler              = "lambdaHelloWorld.lambda_handler"
+runtime              = "python3.10"
+lambda_role_arn      = "FILL ME IN"
+#schedule_expression  = "rate(1 hour)"
