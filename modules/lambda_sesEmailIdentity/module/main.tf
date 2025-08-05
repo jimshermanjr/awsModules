@@ -12,7 +12,7 @@ resource "aws_iam_role_policy" "lambda_ses_policy" {
       {
         Effect   = "Allow"
         Action   = "ses:SendEmail"
-        Resource = var.lambda_resource_arn
+        Resource = "*"
       }
     ]
   })
